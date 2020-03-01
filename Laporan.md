@@ -128,6 +128,9 @@ Buka port localhost:8888, maka akan muncul tampilan sebagai berikut
 3. Tidak ada tantangan pada game, karena tidak ada lawan dan tidak bisa mati.
 ```
 
+## Link YouTube
+https://youtu.be/nt9QpW3z4zE
+
 ## Referensi
 - github.com/auriza
 - https://github.com/huytd/agar.io-clone
