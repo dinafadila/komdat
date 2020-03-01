@@ -36,5 +36,14 @@
 Dalam instalasi, digunakan Ubuntu Server 18.04. Kemudian, buat Virtual Machine baru pada VirtualBox dengan tipe "Ubuntu 64-bit".
 - Jalankan VirtualBox lalu klik New. Berikan nama bebas, tapi pastikan version: Ubuntu (64-bit).
 ![Gambar Memotret](https://github.com/dinafadila/komdat/blob/master/1.png)
+- Pilih Create a virtual hard disk now, lalu klik Create.
+![Gambar Memotret](https://github.com/dinafadila/komdat/blob/master/2%20(2).png)
 
+### 2. Setting Port-Forwarding
+Port-forwarding berfungsi agar server dapat diakses dari luar melalui alamat host (IP host).
+- Klik setting pada ubuntu server, klik Network, pilih Advance, lalu klik Port Forwarding.
+![Gambar Memotret](https://github.com/dinafadila/komdat/blob/master/3.png)
+- Tambah port dan atur seperti tabel dibawah ini:
+![Gambar Memotret](https://github.com/dinafadila/komdat/blob/master/4.png)
 
+Dengan demikian, ketika mengakses localhost:8888 di host, maka akan diteruskan ke localhost:3000 di guest (VM).
