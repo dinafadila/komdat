@@ -95,16 +95,22 @@ Buka port localhost:8888, maka akan muncul tampilan sebagai berikut
 
 ## Cara Pemakaian
 ### a. Langkah pemakaian
+```text
 1. Masukkan nama pengguna pada kolom Nick sebagai identitas bakteri pengguna.
 2. Pengguna menekan tombol Play dan memulai permainan.
 3. Gerakkan mouse ke segala arah pada layar untuk menggerakan karakternya. Pengguna cukup memakan sel-sel bakteri berukuran kecil yang ada disekitarnya dan menghindari sel bakteri berukuran besar agar tidak dimakan oleh sel bakteri besar tersebut sehingga pengguna dapat bertahan hidup.
 4. Tekan tombol space untuk membelah diri.
 5. Permainan berakhir saat karakter dimakan oleh lawan yang berukuran lebih besar.
 6. Objective: Cobalah untuk menjadi sebesar mungkin dengan memakan pemain yang lain.
+```
 
-### b. Rules 
-
-
+### b. Rules
+```text
+1. Pemain yang belum makan belum bisa dimakan.
+2. Setiap kali pemain bergabung, 3 partikel makanan akan muncul.
+3. Setiap kali partikel makanan dimakan oleh pemain, 1 partikel makanan baru akan muncul kembali.
+4. Semakin banyak makanan yang dimakan, maka karakter akan semakin lambat bergerak.
+```
 
 ## Pembahasan
 ### Kelebihan
