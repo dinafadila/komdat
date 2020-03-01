@@ -93,5 +93,35 @@ npm start
 Buka port localhost:8888, maka akan muncul tampilan sebagai berikut
 ![Gambar Memotret](https://github.com/dinafadila/komdat/blob/master/6.png)
 
+## Cara Pemakaian
+### a. Langkah pemakaian
+1. Masukkan nama pengguna pada kolom Nick sebagai identitas bakteri pengguna.
+2. Pengguna menekan tombol Play dan memulai permainan.
+3. Gerakkan mouse ke segala arah pada layar untuk menggerakan karakternya. Pengguna cukup memakan sel-sel bakteri berukuran kecil yang ada disekitarnya dan menghindari sel bakteri berukuran besar agar tidak dimakan oleh sel bakteri besar tersebut sehingga pengguna dapat bertahan hidup.
+4. Tekan tombol space untuk membelah diri.
+5. Permainan berakhir saat karakter dimakan oleh lawan yang berukuran lebih besar.
+6. Objective: Cobalah untuk menjadi sebesar mungkin dengan memakan pemain yang lain.
+
+### b. Rules 
 
 
+
+## Pembahasan
+### Kelebihan
+```text
+1. Tidak terpengaruh jaringan internet.
+2. Sederhana ketika memulai permainan. Pengguna cukup mengisi nama pengguna pada kolom Nick dan menekan tombol Play.
+3. Mudah dimengerti dan dimainkan oleh pengguna awam.
+4. Setting yang mudah dimengerti.
+```
+
+### Kelemahan
+```text
+1. User Interface game terlalu simple.
+2. Permainan hanya bisa dimainkan secara local.
+3. Tidak ada tantangan pada game, karena tidak ada lawan dan tidak bisa mati.
+```
+
+## Referensi
+- github.com/auriza
+- https://github.com/huytd/agar.io-clone
