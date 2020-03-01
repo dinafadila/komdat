@@ -33,9 +33,8 @@
 ## Langkah instalasi
 
 ### 1. Membuat VM Ubuntu Server
-```text
 Dalam instalasi, digunakan Ubuntu Server 18.04. Kemudian, buat Virtual Machine baru pada VirtualBox dengan tipe "Ubuntu 64-bit".
 - Jalankan VirtualBox lalu klik New. Berikan nama bebas, tapi pastikan version: Ubuntu (64-bit).
 ![Gambar Memotret](https://github.com/dinafadila/komdat/blob/master/1.png)
 
-```
+
