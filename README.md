@@ -48,41 +48,54 @@ Port-forwarding berfungsi agar server dapat diakses dari luar melalui alamat hos
 
 Dengan demikian, ketika mengakses localhost:8888 di host, maka akan diteruskan ke localhost:3000 di guest (VM). Begitu juga dengan SSH, jika kita mengakses port 2200 di host, maka akan diteruskan ke port 22 di guest.
 
-### 3. Update Paket Sistem dan Install ss
+### 3. Update Paket Sistem dan Install ssh
 Update seluruh paket dalam sistem agar up-to-date. Serta, install ssh agar dapat diakses melalui terminal ubuntu.
 ```text
 $ sudo apt update
 $ sudo apt install ssh
 ```
+### 4. Akses melalui ubuntu
+```text
+$ ssh student@localhost -p 2222
+```
 
-### 4. Install Node.js dan NPM
+### 5. Set repository server
+```text
+$ sudo tee /etc/apt/sources.list << !
+deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic          main restricted universe multiverse
+deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic-updates  main restricted universe multiverse
+deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic-security main restricted universe multiverse
+!  
+```
+
+### 6. Install Node.js dan NPM
 ```text
 $ sudo apt-get install nodejs
 $ sudo apt-get install npm
 ```
 
-### 5. Install Socket.io dan Express.io
+### 7. Install Socket.io dan Express.io
 Pada command line instalasi socket.io dan express.io ditambahkan --save. Hal ini berfungsi untuk menyimpan hasil instalasi sehingga selanjutnya jika ingin menjalankan agar.io tidak perlu melakukan instalasi socket.io dan express.io lagi.
 ```text
 npm install socket.io --save
 npm install express.io --save
 ```
 
-### 6. Download Agar.io
+### 8. Download Agar.io
 Setelah di download, kita masuk kedalam direktori agar.io-clone.
 ```text
 $ git clone https://github.com/huytd/agar.io-clone.git
 $ cd agar.io-clone
 ```
 
-### 7. Install Agar.io
+### 9. Install Agar.io
 Saat melakukan instalasi agar.io, pastikan anda masih berada pada direktori 
 ```text
 agar.io-clone
 npm install
 ```
 
-### 8. Menjalankan Agar.io
+### 10. Menjalankan Agar.io
 Saat menjalankan agar.io, pastikan anda masih berada pada direktori 
 ```text
 agar.io-clone
