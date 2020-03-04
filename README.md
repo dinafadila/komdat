@@ -143,5 +143,5 @@ Buka port localhost:8888, maka akan muncul tampilan sebagai berikut
 https://youtu.be/nt9QpW3z4zE
 
 ## Referensi
-- github.com/auriza
+- https://github.com/auriza
 - https://github.com/huytd/agar.io-clone
