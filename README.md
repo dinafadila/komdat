@@ -54,7 +54,7 @@ Update seluruh paket dalam sistem agar up-to-date. Serta, install ssh agar dapat
 $ sudo apt update
 $ sudo apt install ssh
 ```
-### 4. Akses melalui ubuntu
+### 4. Akses VM dari host
 ```text
 $ ssh student@localhost -p 2222
 ```
