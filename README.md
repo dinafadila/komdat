@@ -89,16 +89,14 @@ $ cd agar.io-clone
 ```
 
 ### 9. Install Agar.io
-Saat melakukan instalasi agar.io, pastikan anda masih berada pada direktori 
+Saat melakukan instalasi agar.io, pastikan anda masih berada pada direktori agar.io-clone
 ```text
-agar.io-clone
 npm install
 ```
 
 ### 10. Menjalankan Agar.io
-Saat menjalankan agar.io, pastikan anda masih berada pada direktori 
+Saat menjalankan agar.io, pastikan anda masih berada pada direktori agar.io-clone
 ```text
-agar.io-clone
 npm start
 ```
 ![Gambar Memotret](https://github.com/dinafadila/komdat/blob/master/5.png)
